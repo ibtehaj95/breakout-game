@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Breakout</h1>
+    <h3>Use arrow keys to move the platform to guide the ball to the bricks and break them out of the wall</h3>
+   <div class="main-container">
+    <div class="game-container">
+    </div>
+    <div class="score-container">
+        <div class="score">
+            <h2 id="score-title">Score</h2>
+            <h4 id="score-number">0</h4>
+        </div>
+        <div class="bound">
+            <h2 id="bound-title">Lives</h2>
+            <h4 id="bound-number">3</h4>
+        </div>
+        <div class="record">
+            <h2 id="record-title">Record</h2>
+            <h4 id="record-number">0</h4>
+        </div>
+        <div class="buttons-container">
+            <div class="start-button">
+                <div class="button-icon">
+                    <i class="fa-sharp fa-solid fa-play fa-3x" id="start-btn"></i>
+                </div>
+                <div class="button-title">
+                    <h5>Start Game</h5>
+                </div>
+            </div>
+            <div class="reload-button">
+                <div class="button-icon">
+                    <i class="fa-sharp fa-solid fa-rotate-right fa-3x" id="reload-btn"></i>
+                </div>
+                <div class="button-title">
+                    <h5>Reload Page</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/9a6422c61d.js" crossorigin="anonymous"></script>
+</body>
+</html>

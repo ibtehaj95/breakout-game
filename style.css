@@ -1,0 +1,113 @@
+body{
+    background-color: #F4CC70;
+}
+
+h1{
+    text-align: center;
+    color: #4F6457;
+    font-size: 250%;
+}
+
+h3{
+    text-align: center;
+    color: #75B9A1;
+    font-size: 150%;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.game-container{
+    border: 2px solid navajowhite;
+    width: 80%;
+    height: 75vh;
+    position: relative;
+}
+
+.score-container{
+    border: 2px solid navajowhite;
+    width: 15%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.score-container h2{
+    color: #4F6457;
+    font-size: 150%;
+    margin: 0;
+}
+
+.score-container h4{
+    color: #75B9A1;
+    font-size: 400%;
+    margin: 0;
+}
+
+.score-container h5{
+    margin: 0;
+    color: #4F6457;
+    font-size: 100%;
+}
+
+.score-container .fa-3x{
+    color:#75B9A1;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user{
+    width: 10%;
+    height: 1vh;
+    background-color: #4F6457;
+    position: absolute;
+    bottom: 0;
+}
+
+.wrecker{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(248, 169, 51);
+    position: absolute;
+}
+
+.bl-l{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bricks-l{
+    margin: 1px 1px;
+    height: 3vh;
+    background-color: #DE7A22;
+}
+
+.bl-m{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.bricks-m{
+    margin: 1px 1px;
+    height: 3vh;
+    background-color: #20948B;
+}
+
+.bl-s{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.bricks-s{
+    margin: 1px 1px;
+    height: 3vh;
+    background-color: #6AB187;
+}
