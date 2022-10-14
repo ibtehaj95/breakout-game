@@ -1,5 +1,5 @@
 # breakout-game
-Tried making a copy of the retro-game called Breakout. Play it at https://ibtehajdoesdevelopment.on.drv.tw/webdev/Games/Breakout/.
+Tried making a copy of the retro-game called Breakout. Play it at https://ibtehajdoesdevelopment.on.drv.tw/webdev/games/breakout/.
 
 In addition, this game requires a keyboard to play, hence the webpage is not responsive to fit mobile screen sizes.
 
